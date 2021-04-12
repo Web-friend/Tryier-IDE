@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap'); /*font-family: 'Comfortaa', cursive;*/
+
+
+
+.box-1 {
+flex: 1;
+}
+
+.box-2 {
+
+}
+
+.box-3 {
+
+}
+
+body {
+    width: 100%;
+    background: #2f3542;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+ul li {
+    transition: 0.5s;
+    font-size: 25px;
+}
+.li1 {
+    
+    background-color: #f1c40f;
+    width: 33.33%;
+    padding: 20px;
+    
+}
+.li2{
+    background-color: #e67e22;
+    width: 33.33%;
+    padding: 20px;
+    
+}
+
+.li3 {
+    background-color: #576574;
+    width: 33.33%;
+    padding: 20px;
+    
+}
+
+ul li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+textarea {
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 1px;
+    display: inline-block;
+    color: white;
+    overflow: auto;
+    background: #535c68;
+    outline: none;
+    resize: none;
+    width: 33%;
+    height: 10rem;
+}
+iframe {
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.code-area {
+    display: flex;
+ 
+}
+
+@media screen and (min-width= 300px){
+    ul li {
+        font-size: 10px;
+        padding: 10%;
+    }
+}
+
+a {
+    all: unset;
+}

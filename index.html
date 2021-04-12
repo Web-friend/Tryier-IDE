@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Try Your Awesome Html Codes With Tryier IDE </title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="li1">download code <i class="fa fa-download" aria-hidden="true"></i></li>
+            <li class="li2" onclick="reset();">reset <i class="fa fa-refresh" aria-hidden="true"></i></li>
+           <li class="li3" onclick=" about()">about <i class="fa fa-info-circle" aria-hidden="true"></i></i></li>
+        </ul>
+    </nav>
+    <div class="code-area" contenteditable="99">
+        <textarea class="box-1" id="html" placeholder="HTML Code" role="textbox"
+                  oninput="showPreview()"></textarea>
+        <textarea class="box-2" id="css" placeholder="CSS Code" role="textbox"
+                  oninput="showPreview()"></textarea>
+        <textarea class="box-3" id="JavaScript" placeholder="JavaScript Code" role="textbox" 
+                  oninput="showPreview()"></textarea>				
+      </div>
+      <div class="preview-area">
+        <iframe id="preview-window"></iframe>
+      </div>
+    <script src="./app.js"></script>
+</body>
+</html>
